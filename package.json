@@ -2,7 +2,7 @@
   "name": "arena-cx-scoreboard",
   "private": true,
   "version": "1.0.0",
-  "description": "ARENA CX — Cyberpunk Minecraft esports scoreboard overlay for OBS Studio broadcasts",
+  "description": "ARENA CX — Minecraft esports scoreboard overlay for OBS Studio broadcasts",
   "type": "module",
   "scripts": {
     "dev": "vite",
