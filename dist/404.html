@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ARENA CX — Redirecting…</title>
+    <script>
+      // GitHub Pages SPA fallback: forward clean paths like /overlay or /control
+      // to the hash-based route on the real index.html.
+      (function () {
+        try {
+          var seg = location.pathname.split('/').filter(Boolean).pop() || '';
+          if (seg === 'overlay' || seg === 'control') {
+            var root = location.pathname.replace(/\/(overlay|control)\/?$/, '/');
+            location.replace(root + '#/' + seg);
+            return;
+          }
+          location.replace(location.pathname.replace(/[^/]*$/, ''));
+        } catch (e) {
+          location.replace('/');
+        }
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
