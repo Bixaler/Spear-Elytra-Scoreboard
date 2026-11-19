@@ -30,8 +30,7 @@ export function Landing() {
           ARENA <em>CX</em>
         </h1>
         <p>
-          Cyberpunk esports scoreboard for Minecraft duels. Transparent OBS overlay, independent
-          duel / round / totem statistics, cinematic animations.
+          The ultimate broadcast interface for Minecraft PvP. Track every duel, round, and totem in real time with a cinematic scoreboard designed for competitive esports.
         </p>
       </header>
 
