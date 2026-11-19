@@ -1,0 +1,35 @@
+/* ==========================================================================
+   ARENA CX — design tokens
+   ========================================================================== */
+
+:root {
+  /* Palette */
+  --deep-purple: #21152f;
+  --electric-violet: #8b5cf6;
+  --neon-purple: #b56bff;
+  --graphite: #202127;
+  --dark-slate: #30313a;
+  --silver: #a7a9b4;
+  --off-white: #e9e5f0;
+  --accent: #63e6be;
+  --danger: #ef5a73;
+
+  /* Derived surfaces */
+  --surface-0: #17131f;
+  --surface-1: rgba(38, 34, 50, 0.94);
+  --surface-2: rgba(26, 22, 34, 0.94);
+  --surface-3: rgba(16, 13, 22, 0.92);
+  --line-soft: rgba(139, 92, 246, 0.22);
+  --line-strong: rgba(139, 92, 246, 0.55);
+  --line-bright: rgba(181, 107, 255, 0.85);
+
+  /* Type */
+  --font-display: 'Chakra Petch', 'Rajdhani', sans-serif;
+  --font-ui: 'Rajdhani', 'Chakra Petch', sans-serif;
+  --font-pixel: 'Press Start 2P', monospace;
+
+  /* Shared corner cuts (cyberpunk clip geometry) */
+  --cut-sm: 7px;
+  --cut-md: 12px;
+  --cut-lg: 16px;
+}
